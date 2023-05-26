@@ -20,6 +20,8 @@ app.use(routeforNotes, require("./note/create/expressRoute"))
 app.use(routeforNotes, require("./note/getAll/expressRoute"))
 app.use(routeforNotes, require("./note/update/expressRoute"))
 app.use(routeforNotes, require("./note/delete/expressRoute"))
+//app.use(routeforNotes, require("../../front/sign-in/index"))
+//app.use(routeforNotes, require("../../front/Notas/index"))
 
 const routeforUsers = "/users"
 app.use(routeforUsers, require("./user/getById/expressRoute"))
